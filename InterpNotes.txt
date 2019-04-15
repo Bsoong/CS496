@@ -1,0 +1,15 @@
+AST.ml = AST
+DS.ml = Experssed values and Environments
+lexer.mll:  FIle for lexer Generator(Usually not modified from ocamllex)
+parser.mly: File for parser Generator (menhir)
+interp.ml: Interpreter
+test.ml: Test cases -> How to use: make test in file directory
+
+"let x = t in x"
+lexer --> [let, ID "X", EQ, cast 2, IN, ID "x"] parser
+
+Aprog
+||
+Let
+|     |     |
+"x"   ID 2  Var "x"

@@ -32,21 +32,21 @@ open Ast
 %token LET
 %token EQUALS
 %token IN
-%token PROC
 %token ISZERO
 %token IF
 %token THEN
 %token ELSE
-%token LETREC
-%token SET
-%token BEGIN
-%token END
-%token NEWREF
-%token DEREF
-%token SETREF
-%token SEMICOLON
-%token TUPLE
-%token UNTUPLE
+%token EMPTYLIST
+%token CONS
+%token HD
+%token TL
+%token EMPTY
+%token EMPTYTREE 
+%token NODE 
+%token CASET 
+%token ARROW
+%token OF
+%token ABS
 %token COMMA
 %token EOF
 
@@ -61,11 +61,10 @@ open Ast
    Because PLUS has higher precedence than IN, "let x=1 in x+2" will
    parse as "let x=1 in (x+2)" and not as "(let x=1 in x)+2". *)
 
-%nonassoc IN ELSE EQUALS            /* lowest precedence */
+%nonassoc IN ELSE            /* lowest precedence */
 %left PLUS MINUS
 %left TIMES DIVIDED    /* highest precedence */
-                          (*%nonassoc UMINUS        /* highest precedence */*)
-
+                          (* %nonassoc UMINUS        /* highest precedence */ *)
 
 (* After declaring associativity and precedence, we need to declare what
    the starting point is for parsing the language.  The following
@@ -73,7 +72,7 @@ open Ast
    The declaration also says that parsing a [prog] will return an OCaml
    value of type [Ast.expr]. *)
 
-%start <Ast.prog> prog
+%start <Ast.expr> prog
 
 (* The following %% ends the declarations section of the grammar definition. *)
 
@@ -105,8 +104,8 @@ open Ast
    the resulting value to [e].  The action simply says to return that value [e]. *)
 
 prog:
-	| e = expr; EOF { AProg e }
-	;
+    | e = expr; EOF { e }
+    ;
 
 (* The second rule, named [expr], has productions for integers, variables,
    addition expressions, let expressions, and parenthesized expressions.
@@ -140,32 +139,23 @@ expr:
     | e1 = expr; MINUS; e2 = expr { Sub(e1,e2) }
     | e1 = expr; TIMES; e2 = expr { Mul(e1,e2) }
     | e1 = expr; DIVIDED; e2 = expr { Div(e1,e2) }
-    | TUPLE; LPAREN; es = exprs_comma; RPAREN  { Tuple(es) }
-    | UNTUPLE; LPAREN; ids = ids_comma; RPAREN; EQUALS; 
-      e1 = expr; IN; e2 = expr { UnTuple(ids,e1,e2) }
     | LET; x = ID; EQUALS; e1 = expr; IN; e2 = expr { Let(x,e1,e2) }
-    | LETREC; x = ID; LPAREN; y = ID; RPAREN; EQUALS; e1 = expr; IN; e2 = expr { Letrec(x,y,e1,e2) }
-    | PROC; LPAREN; x = ID; RPAREN; LBRACE; e = expr; RBRACE { Proc(x,e) }
-    | LPAREN; e1 = expr; e2 = expr; RPAREN { App(e1,e2) }
     | ISZERO; LPAREN; e = expr; RPAREN { IsZero(e) }
-    | NEWREF; LPAREN; e = expr; RPAREN { NewRef(e) }
-    | DEREF; LPAREN; e = expr; RPAREN { DeRef(e) }
-    | SETREF; LPAREN; e1 = expr; COMMA; e2 = expr; RPAREN { SetRef(e1,e2) }
+    | ABS; LPAREN; e = expr; RPAREN { Abs(e) }
+    | EMPTYLIST { EmptyList }
+    | HD; LPAREN; e = expr; RPAREN { Hd(e) }
+    | TL; LPAREN; e = expr; RPAREN { Tl(e) }
+    | EMPTY; LPAREN; e = expr; RPAREN { Empty(e) }
+    | CONS; LPAREN; e1 = expr; COMMA; e2 = expr; RPAREN { Cons(e1, e2) }
+    | EMPTYTREE { EmptyTree }
+    | NODE; LPAREN; e1 = expr; COMMA; e2=expr; COMMA; e3=expr; RPAREN { Node(e1,e2,e3) }
+    | CASET; e1 = expr; OF; LBRACE; EMPTYTREE; ARROW; e2=expr; COMMA;
+      NODE; LPAREN; id1 = ID; COMMA; id2=ID; COMMA; id3=ID; RPAREN;
+      ARROW;  e3=expr; RBRACE { CaseT(e1,e2,id1,id2,id3,e3) }
     | IF; e1 = expr; THEN; e2 = expr; ELSE; e3 = expr { ITE(e1,e2,e3) }
-    | SET; x = ID; EQUALS; e = expr { Set(x,e) }
-    | BEGIN; es = exprs; END { BeginEnd(es) }
     | LPAREN; e = expr; RPAREN {e}
-      (*    | MINUS e = expr %prec UMINUS { SubExp(IntExp 0,e) }*)
+      (*    | MINUS e = expr %prec UMINUS { Sub(Int 0,e) } *)
     | LPAREN; MINUS e = expr; RPAREN  { Sub(Int 0, e) }
     ;
-
-exprs:
-    es = separated_list(SEMICOLON, expr)    { es } ;
-
-exprs_comma:
-    es = separated_nonempty_list(COMMA, expr)    { es } ;
-
-ids_comma:
-    ids = separated_list(COMMA, ID)    { ids } ;
 
 (* And that's the end of the grammar definition. *)

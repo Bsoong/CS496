@@ -1,3 +1,4 @@
+(*I pledge my honor that I have abided by the Stevens Honor System-Bsoong*)
 type dtree =
   |Leaf of int
   |Node of (char * dtree * dtree)

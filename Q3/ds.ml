@@ -1,5 +1,4 @@
 
-
 (* This file defines expressed values and environments *)
 
 
@@ -8,11 +7,15 @@
 type exp_val =
   | NumVal of int
   | BoolVal of bool
-  | TupleVal of exp_val list
-
-type env =
+  | UnitVal
+  | ProcVal of string*Ast.expr*env
+  | RefVal of int
+  | RecVal of (string*exp_val) list
+and
+  env =
   | EmptyEnv
   | ExtendEnv of string*exp_val*env
+  | ExtendEnvRec of string*string*Ast.expr*env
 
 (* Operations on environments *)
 
@@ -27,6 +30,10 @@ let rec apply_env (env:env) (id:string):exp_val option =
     if id=key
     then Some value
     else apply_env env id
+  | ExtendEnvRec(key,param,body,en) ->
+    if id=key
+    then Some (ProcVal(param,body,env))
+    else apply_env en id
 
 
 (* operations on expressed values *)
@@ -39,11 +46,24 @@ let boolVal_to_bool =  function
   |  BoolVal b -> b
   | _ -> failwith "Expected a boolean!"
 
+let refVal_to_int =  function
+  |  RefVal n -> n
+  | _ -> failwith "Expected a reference!"
+
+let recVal_to_list = function
+  |RecVal(vs) -> vs
+  |_ -> failwith "Expected record"
+
 let rec string_of_expval = function
   |  NumVal n -> "NumVal " ^ string_of_int n
   | BoolVal b -> "BoolVal " ^ string_of_bool b
-  | TupleVal(vs) -> "TupleVal"
-    
-and string_of_env  = function
+  | UnitVal -> "UnitVal"
+  | ProcVal (id,body,env) -> "ProcVal ("^id^","^Ast.string_of_expr body^","^ string_of_env env^")"
+  | RefVal i -> "RefVal ("^string_of_int i^")"
+  | RecVal(fs) -> "RecVal ("^ (List.fold_left (fun s (id,ev) ->
+      s^","^id^"="^string_of_expval ev) "" fs) ^")"
+and
+  string_of_env  = function
   | EmptyEnv -> ""
   | ExtendEnv(id,v,env) -> "("^id^","^string_of_expval v^")"^string_of_env env
+  | ExtendEnvRec(id,param,body,env) -> "("^id^","^param^","^Ast.string_of_expr body^")"^string_of_env env
