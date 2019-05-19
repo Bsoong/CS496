@@ -1,0 +1,12 @@
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:3:pair_proc  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:7:emptylist  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:13:tl_list_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:19:get_rst  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:19:get_rst .

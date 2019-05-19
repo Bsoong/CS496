@@ -1,0 +1,181 @@
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Runner: processes
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Chooser: simple
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration suite_name = "suite"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration cache_filename = "/home/bsoong/Desktop/College/CS496/hw4_stub/_build/oUnit-$(suite_name).cache"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration display = "true"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration results_style_1_X = "false"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration verbose = "false"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration health_check_interval = "1."
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration testdata_dir = "none"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration chooser = "simple"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration output_html_dir = "none"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration processes_kill_period = "5."
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration runner = "processes"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration shards = "4"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration processes_grace_period = "5."
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration log_encoding = "utf-8"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration output_junit_file = "none"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Configuration output_file = "/home/bsoong/Desktop/College/CS496/hw4_stub/_build/oUnit-$(suite_name)-$(shard_id).log"
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Using 4 workers maximum.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Starting worker number bsoong-Lenovo-Y520-15IKBN#01.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#01 started.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Starting worker number bsoong-Lenovo-Y520-15IKBN#02.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#02 started.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Starting worker number bsoong-Lenovo-Y520-15IKBN#03.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#03 started.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Starting worker number bsoong-Lenovo-Y520-15IKBN#04.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#04 started.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 , suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Start test suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Start test suite:1:pair2 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Start test suite:2:pair3 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 , suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 , suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Test suite:0:pair1  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 , suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: End test suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 , suite:0:pair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Test suite:1:pair2  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:4:unpair1 , suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: End test suite:1:pair2 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Test suite:2:pair3  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Start test suite:4:unpair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:4:unpair1 , suite:3:pair_proc , suite:2:pair3 , suite:1:pair2 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: End test suite:2:pair3 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:5:unpair_proc , suite:4:unpair1 , suite:3:pair_proc , suite:2:pair3 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Start test suite:5:unpair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:6:pair_bool_int , suite:5:unpair_proc , suite:4:unpair1 , suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Start test suite:6:pair_bool_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:6:pair_bool_int , suite:5:unpair_proc , suite:4:unpair1 , suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:3:pair_proc  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:6:pair_bool_int , suite:5:unpair_proc , suite:4:unpair1 , suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Test suite:4:unpair1  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:6:pair_bool_int , suite:5:unpair_proc , suite:4:unpair1 , suite:3:pair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: End test suite:4:unpair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:7:emptylist , suite:6:pair_bool_int , suite:5:unpair_proc , suite:4:unpair1 .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:8:single_ele_int , suite:7:emptylist , suite:6:pair_bool_int , suite:5:unpair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Test suite:5:unpair_proc  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Test suite:6:pair_bool_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Start test suite:8:single_ele_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:8:single_ele_int , suite:7:emptylist , suite:6:pair_bool_int , suite:5:unpair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: End test suite:5:unpair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: End test suite:6:pair_bool_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:8:single_ele_int , suite:7:emptylist , suite:6:pair_bool_int , suite:5:unpair_proc .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:8:single_ele_int , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Start test suite:9:single_ele_bool .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Start test suite:10:list_of_list_let_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:8:single_ele_int , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Test suite:8:single_ele_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:8:single_ele_int , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: End test suite:8:single_ele_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:8:single_ele_int , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:11:null_list , suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Start test suite:11:null_list .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:11:null_list , suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:7:emptylist  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Test suite:9:single_ele_bool  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:11:null_list , suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: End test suite:9:single_ele_bool .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Test suite:10:list_of_list_let_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:11:null_list , suite:10:list_of_list_let_int , suite:9:single_ele_bool , suite:7:emptylist .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: End test suite:10:list_of_list_let_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:13:tl_list_int , suite:12:hd_list_int , suite:11:null_list , suite:10:list_of_list_let_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Start test suite:12:hd_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int , suite:11:null_list .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Test suite:11:null_list  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Start test suite:14:empty_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int , suite:11:null_list .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: End test suite:11:null_list .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int , suite:11:null_list .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:15:null_tree , suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Start test suite:15:null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:15:null_tree , suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Test suite:12:hd_list_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:15:null_tree , suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: End test suite:12:hd_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:15:null_tree , suite:14:empty_tree , suite:13:tl_list_int , suite:12:hd_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Test suite:14:empty_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:16:not_null_tree , suite:15:null_tree , suite:14:empty_tree , suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: End test suite:14:empty_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Start test suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:16:not_null_tree , suite:15:null_tree , suite:14:empty_tree , suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:13:tl_list_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Test suite:15:null_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:17:get_data_tree , suite:16:not_null_tree , suite:15:null_tree , suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: End test suite:15:null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Start test suite:17:get_data_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:17:get_data_tree , suite:16:not_null_tree , suite:15:null_tree , suite:13:tl_list_int .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 4 tests running : suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree , suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree , suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: Test suite:16:not_null_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Start test suite:18:get_lst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Start test suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 4 tests running : suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree , suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree , suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#03 I: End test suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 4 tests running : suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree , suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 4 tests running: suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree , suite:16:not_null_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: Test suite:17:get_data_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 3 tests running : suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 3 tests running: suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#02 I: End test suite:17:get_data_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: Test suite:18:get_lst  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 3 tests running : suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 3 tests running: suite:19:get_rst , suite:18:get_lst , suite:17:get_data_tree .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#01 I: End test suite:18:get_lst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 2 tests running : suite:19:get_rst , suite:18:get_lst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 2 tests running: suite:19:get_rst , suite:18:get_lst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 1 tests running : suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 1 tests running: suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: Test suite:19:get_rst  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 1 tests running : suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 1 tests running: suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#04 I: End test suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Still 1 tests running : suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 1 tests running: suite:19:get_rst .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: 0 tests running: .
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#03 has ended.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#02 has ended.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#01 has ended.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Worker bsoong-Lenovo-Y520-15IKBN#04 has ended.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Used 4 worker during test execution.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Run 5 tests with shard bsoong-Lenovo-Y520-15IKBN#02.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Run 5 tests with shard bsoong-Lenovo-Y520-15IKBN#03.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Run 4 tests with shard bsoong-Lenovo-Y520-15IKBN#04.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Run 6 tests with shard bsoong-Lenovo-Y520-15IKBN#01.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: ==============
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Summary:
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:19:get_rst  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:18:get_lst  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:17:get_data_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:16:not_null_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:15:null_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:13:tl_list_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:14:empty_tree  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:12:hd_list_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:11:null_list  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:10:list_of_list_let_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:9:single_ele_bool  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:7:emptylist  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:8:single_ele_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:6:pair_bool_int  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:5:unpair_proc  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:4:unpair1  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:3:pair_proc  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:2:pair3  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:1:pair2  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Test suite:0:pair1  is successful.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Ran: 20 tests in: 0.11 seconds.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Cases: 20.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Tried: 20.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Errors: 0.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Failures: 0.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Skip: 0.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Todo: 0.
+2019-04-20T18:38:15+00:00 bsoong-Lenovo-Y520-15IKBN#00 I: Timeout: 0.
