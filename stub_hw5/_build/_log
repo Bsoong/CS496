@@ -1,0 +1,14 @@
+### Starting build.
+# Target: main.ml.depends, tags: { package(oUnit), bin_annot, extension:ml, file:main.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -package oUnit -modules main.ml > main.ml.depends # cached
+# Target: ast.ml.depends, tags: { package(oUnit), bin_annot, extension:ml, file:ast.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -package oUnit -modules ast.ml > ast.ml.depends # cached
+# Target: ast.cmo, tags: { package(oUnit), bin_annot, byte, compile, extension:cmo, extension:ml, file:ast.cmo, file:ast.ml, implem, ocaml, quiet }
+ocamlfind ocamlc -c -bin-annot -package oUnit -o ast.cmo ast.ml # cached
+# Target: checker.ml.depends, tags: { package(oUnit), bin_annot, extension:ml, file:checker.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -package oUnit -modules checker.ml > checker.ml.depends
++ ocamlfind ocamldep -package oUnit -modules checker.ml > checker.ml.depends
+File "checker.ml", line 110, characters 2-4:
+Error: Syntax error
+Command exited with code 2.
+# Compilation unsuccessful.
